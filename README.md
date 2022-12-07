@@ -8,19 +8,19 @@ echo "=================================================="
 
 sleep 2
 
-# DEGISKENLER by Nodeist
+# Variables by Skynodes
 DWS_WALLET=wallet
-DWS=hid-noded
+DWS=dewebd
 DWS_ID=jagrat
 DWS_PORT=12
-DWS_FOLDER=.hid-node
-DWS_FOLDER2=hid-node
+DWS_FOLDER=.dws-node
+DWS_FOLDER2=dws-node
 DWS_VER=
 DWS_REPO=https://github.com/deweb-services/deweb.git
 DWS_GENESIS=https://raw.githubusercontent.com/deweb-services/deweb/main/genesis.json
 DWS_ADDRBOOK=
 DWS_MIN_GAS=0
-DWS_DENOM=uhid
+DWS_DENOM=udws
 DWS_SEEDS=
 
 
