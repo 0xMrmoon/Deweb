@@ -48,10 +48,10 @@ if [ ! $DWS_NODENAME ]; then
 	echo 'export HS_NODENAME='$DWS_NODENAME >> $HOME/.bash_profile
 fi
 
-echo -e "NODE: \e[1m\e[32m$HS_NODENAME\e[0m"
-echo -e "WALLET: \e[1m\e[32m$HS_WALLET\e[0m"
-echo -e "CHAIN: \e[1m\e[32m$HS_ID\e[0m"
-echo -e "PORT: \e[1m\e[32m$HS_PORT\e[0m"
+echo -e "NODE: \e[1m\e[32m$DWS_NODENAME\e[0m"
+echo -e "WALLET: \e[1m\e[32m$DWS_WALLET\e[0m"
+echo -e "CHAIN: \e[1m\e[32m$DWS_ID\e[0m"
+echo -e "PORT: \e[1m\e[32m$DWS_PORT\e[0m"
 echo '================================================='
 
 sleep 2
